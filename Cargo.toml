@@ -1,0 +1,12 @@
+[package]
+name = "clock"
+version = "0.1.0"
+authors = ["barthelemy-drabczuk <barthelemy.drabczuk@etu.univ-amu.fr>"]
+edition = "2018"
+
+[dependencies]
+time = "0.1"
+
+[dependencies.gtk]
+version = "0.6.0"
+features = ["v3_16"]
