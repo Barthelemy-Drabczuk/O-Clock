@@ -13,6 +13,7 @@ fn get_time () -> String {
 
 fn main() {
 
+	//example taken from https://github.com/gtk-rs/examples
 	if gtk::init ().is_err () {
         println! ("Failed to initialize GTK.");
         return;
